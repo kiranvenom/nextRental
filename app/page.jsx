@@ -1,7 +1,13 @@
-import React from 'react';
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/InfoBoxes';
 
 const Home = () => {
-	return <div className='text-2xl font-bold'>Home</div>;
+	return (
+		<>
+			<Hero />
+			<InfoBoxes />
+		</>
+	);
 };
 
 export default Home;
